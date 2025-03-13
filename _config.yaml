@@ -1,3 +1,9 @@
 title: "My Resume"
-description: "An online resume using GitHub Pages"
-theme: jekyll-theme-slate
+description: "A simple online resume built with GitHub Pages and Jekyll"
+baseurl: ""
+
+theme: minima
+
+show_comments: false
+search_enabled: true
+
