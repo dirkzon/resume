@@ -1,7 +1,5 @@
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - resume.md
+title: "My Resume"
+description: "An online resume using GitHub Pages"
+theme: jekyll-theme-cayman  # Optional, change to other themes if you like
+include: ["resume.md"]
+permalink: /index.html
