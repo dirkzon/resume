@@ -1,5 +1,3 @@
 title: "My Resume"
 description: "An online resume using GitHub Pages"
-theme: jekyll-theme-cayman  # Optional, change to other themes if you like
-include: ["resume.md"]
-permalink: /index.html
+theme: jekyll-theme-cayman
