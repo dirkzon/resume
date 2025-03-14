@@ -1,16 +1,8 @@
-# Test Markdown
+---
+layout: home
+---
+<!-- Do not remove above -->
 
-<p>This is a test for html</p>
+# Welcome to My Resume
 
-## list
- - item 1
- - item 2
-
- ## html list
- 
- <ul>
-  <li>React</li>
-  <li>Node.js</li>
-  <li>Ruby on Rails</li>
-  <li>CSS</li>
-</ul>
+This is a simple online resume built with GitHub Pages and Jekyll.
