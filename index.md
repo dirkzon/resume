@@ -1,7 +1,14 @@
 ---
 layout: home
 ---
-<!-- Do not remove above -->
+<!-- Do not remove above ^-->
+
+<!-- Override site title size -->
+<style>
+  .site-title {
+    font-size: 3em;
+  }
+</style>
 
 **Frontend Developer**
 Amsterdam, Netherlands | johndoe@example.com | +31 6 12345678 | [LinkedIn](https://linkedin.com/in/johndoe)
