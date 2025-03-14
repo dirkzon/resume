@@ -28,7 +28,7 @@ cd resume
 docker-compose up
 ```
 
-4. Visit the site on [http://localhost:4000/](localhost:4000).
+4. Visit the site on [localhost:4000](http://localhost:4000/).
 
 ## Reloading
 
