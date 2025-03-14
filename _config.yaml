@@ -6,3 +6,4 @@ exclude:
   - docker-compose.yml
   - .gitignore
   - README.md
+  - LICENCE
