@@ -2,6 +2,20 @@ title: "Dirk van Zon"
 description: "Full-stack developer"
 theme: minima
 
+minima:
+  skin: auto
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/dirkzon"
+    - title: Linkedin
+      icon: linkedin
+      url: "https://www.linkedin.com/in/dirk-van-zon-1a677a293"
+
+author:
+  name: Dirk van Zon
+  email: "dirk.v.zon@outlook.com"
+
 exclude:
   - docker-compose.yml
   - .gitignore
