@@ -5,13 +5,4 @@ theme: minima
 exclude:
   - docker-compose.yml
   - .gitignore
-
-minima:
-  skin: classic
-  social_links:
-    - title: Github
-      icon: github
-      url: "https://github.com/dirkzon"
-    - title: Linkedin
-      icon: linkedin
-      url: "https://linkedin.com/in/dirk-van-zon-1a677a293"
+  - README.md
