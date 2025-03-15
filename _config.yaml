@@ -3,7 +3,7 @@ description: "Full-stack developer"
 theme: minima
 
 minima:
-  skin: auto
+  skin: dark
   social_links:
     - title: GitHub
       icon: github
