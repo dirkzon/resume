@@ -8,6 +8,7 @@ layout: home
     font-size: 3em;
   }
 </style>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 **Full-stack Developer**  
 Weert, Netherlands | [dirk.v.zon@outlook.com](mailto:dirk.v.zon@outlook.com?subject=Full-stack%20developer%20position%20Dirk%20van%20Zon&body=Dear%20Dirk%2C) | [LinkedIn](https://www.linkedin.com/in/dirk-van-zon-1a677a293) | [GitHub](https://github.com/dirkzon)
