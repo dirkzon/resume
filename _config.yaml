@@ -1,16 +1,10 @@
 title: "Dirk van Zon"
 description: "Full-stack developer"
 theme: minima
+baseurl: ""
 
 minima:
-  skin: dark
-  social_links:
-    - title: GitHub
-      icon: github
-      url: "https://github.com/dirkzon"
-    - title: Linkedin
-      icon: linkedin
-      url: "https://www.linkedin.com/in/dirk-van-zon-1a677a293"
+  skin: auto
 
 author:
   name: Dirk van Zon
@@ -21,6 +15,3 @@ exclude:
   - .gitignore
   - README.md
   - LICENCE
-
-include:
-  - _includes/custom-head.html
