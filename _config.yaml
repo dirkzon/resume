@@ -21,3 +21,6 @@ exclude:
   - .gitignore
   - README.md
   - LICENCE
+
+include:
+  - favicon.ico
