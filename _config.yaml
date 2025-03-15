@@ -23,4 +23,4 @@ exclude:
   - LICENCE
 
 include:
-  - favicon.ico
+  - _includes/custom-head.html
