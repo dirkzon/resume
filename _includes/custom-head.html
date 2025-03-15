@@ -1,9 +1,33 @@
 <!-- Custom Favicon -->
 <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
 
-<!-- Override site title size -->
 <style>
-    .site-title {
-      font-size: 3em;
+    /* Print settings */
+    @media print {
+        @page {
+            size: A4 portrait;
+            margin: none;
+            background: white;
+        }
+        body {
+            font-size: 12pt;
+            margin: 10mm;
+        }
+        .page-content {
+            padding: 0px;
+        }
+        .site-header, .site-footer, .navigation, hr {
+            display: none;
+        }
+        .page-content {
+            padding: 0;
+        }
+        h2, h3, h4, h5, h6 {
+            page-break-before: avoid;
+            page-break-after: avoid;
+        }
+        p, ul, ol {
+            page-break-inside: avoid;
+        }
     }
 </style>

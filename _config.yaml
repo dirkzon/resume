@@ -1,10 +1,17 @@
-title: "Dirk van Zon"
+title: "Resume Dirk van Zon"
 description: "Full-stack developer"
 theme: minima
 baseurl: ""
 
 minima:
   skin: auto
+  social_links:
+    - title: Linkedin
+      icon: linkedin
+      url: "https://www.linkedin.com/in/dirk-van-zon-1a677a293"
+    - title: GitHub
+      icon: github
+      url: "https://github.com/dirkzon"
 
 author:
   name: Dirk van Zon

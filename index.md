@@ -2,6 +2,8 @@
 layout: home
 ---
 
+# Dirk van Zon
+
 **Full-stack Developer**  
 Weert, Netherlands | [dirk.v.zon@outlook.com](mailto:dirk.v.zon@outlook.com?subject=Full-stack%20developer%20position%20Dirk%20van%20Zon&body=Dear%20Dirk%2C) | [LinkedIn](https://www.linkedin.com/in/dirk-van-zon-1a677a293) | [GitHub](https://github.com/dirkzon)
 
