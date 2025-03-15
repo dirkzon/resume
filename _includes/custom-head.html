@@ -1,2 +1,6 @@
 <!-- Custom Favicon -->
-<link rel="icon" href="{{ site.baseurl | append: '/favicon.ico' | relative_url }}">
+{% if jekyll.environment == "production" %}
+  <link rel="icon" type="image/x-icon" href="{{ append: '/resume/favicon.ico' | relative_url }}">
+{% else %}
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+{% endif %}
