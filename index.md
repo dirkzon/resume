@@ -75,11 +75,11 @@ Full of curiosity to learn new things and improve myself. Proficient in TypeScri
 
 ## Languages
 
-* **Dutch**: Native proficiency
-* **English**: Full professional proficiency
+**Dutch**: Native proficiency
+**English**: Full professional proficiency
 
 ***
 
 ## Interests
 
-* **Hobbies**: Snowboarding, Competitive Swimming, [music & vintage audio](https://www.discogs.com/user/dirkvanzon)
+**Hobbies**: Snowboarding, Competitive Swimming, [music & vintage audio](https://www.discogs.com/user/dirkvanzon)
