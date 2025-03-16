@@ -19,7 +19,7 @@ Full of curiosity to learn new things and improve myself. Proficient in TypeScri
 *Eindhoven, Netherlands | Feb 2024 - Present*
 
 * Researched the suitability of the INTERSECT Open Architecture and SiLA 2.0 lab automation standards for self-driving labs.
-* Developed a [demonstrator](https://github.com/BigChemistry-RobotLab/sdl-surface-tension-simulator) in python based on an experimental use case from the Huck Group at Radboud University.
+* Developed a [self-driving lab simulator](https://github.com/BigChemistry-RobotLab/sdl-surface-tension-simulator) in python based on an experimental use case from the Huck Group at Radboud University.
 * Researched orchestration software for autonomous laboratories.
 * Led a team of 9 interns, coordinating daily standups and biweekly sprint reviews and acted as technical consultant.
 
