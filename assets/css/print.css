@@ -12,10 +12,6 @@
     @page :header {
         display: none
     }
-    html, body {
-        width: 210mm;
-        height: 297mm;
-    }
     .site-header, .site-footer, .navigation, hr, #nav {
         display: none !important;
     }
