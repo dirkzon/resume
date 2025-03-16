@@ -40,18 +40,6 @@ Full of curiosity to learn new things and improve myself. Proficient in TypeScri
 
 ***
 
-## Personal Projects
-
-**Oauth2.1 Demonstrator**  
-*Demo of OAuth 2.1 with PKCE and EdDSA to obtain access to a protected resource.* [Repository](https://github.com/dirkzon/oauth2.1-oidc-pkce-demo)
-
-* Developed a secure OAuth 2.1 Authorization Code Flow with PKCE and OpenID Connect for user authentication and access token management.
-* Built a full-stack application using Node.js (Express.js) for the client and resource server, and Vue.js for the user agent.
-* Integrated Keycloak for login/logout functionality and JWT token management with refresh token support.
-* Deployed the entire system using Docker and docker-compose for easy setup and local development.
-
-***
-
 ## Skills
 
 **Programming Languages**: JavaScript, TypeScript, Python, Dart, C#  
@@ -73,10 +61,22 @@ Full of curiosity to learn new things and improve myself. Proficient in TypeScri
 
 ***
 
+## Personal Projects
+
+**Oauth2.1 Demonstrator**  
+*Demo of OAuth 2.1 with PKCE and EdDSA to obtain access to a protected resource.* [Repository](https://github.com/dirkzon/oauth2.1-oidc-pkce-demo)
+
+* Developed a secure OAuth 2.1 Authorization Code Flow with PKCE and OpenID Connect for user authentication and access token management.
+* Built a full-stack application using Node.js (Express.js) for the client and resource server, and Vue.js for the user agent.
+* Integrated Keycloak for login/logout functionality and JWT token management with refresh token support.
+* Deployed the entire system using Docker and docker-compose for easy setup and local development.
+
+***
+
 ## Languages
 
-**Dutch**: Native proficiency
-**English**: Full professional proficiency
+**Dutch**: Native proficiency  
+**English**: Full professional proficiency  
 
 ***
 
