@@ -1,0 +1,33 @@
+@media print {
+    @page {
+        size: A4 portrait;
+        margin: none;
+        background: white;
+        marks: none;
+    }
+    .page-content {
+        padding: 0px;
+    }
+    .site-header, .site-footer, .navigation, hr, #nav {
+        display: none !important;
+    }
+    body {
+        margin: 10mm;
+        background: #fff !important;
+        color: #000 !important;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+    }
+    h1, h2 {
+        page-break-inside: avoid;
+    }
+    h1::after, h2::after, p::after, strong::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-bottom: -100px;
+    }
+}
