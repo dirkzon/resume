@@ -1,10 +1,10 @@
-# Minimal markdown resume
+# Minimalistic markdown resume
 
 This repository contains [my resume site](https://dirkzon.github.io/resume/), built with [Jekyll](https://jekyllrb.com/), a static site generator that transforms Markdown files into a clean, maintainable webpage. By using Markdown, the resume is lightweight, easy to update, and focused on content rather than styling. [Minima](https://github.com/jekyll/minima) is used as the default theme, providing a simple and minimalist design with basic styling. The resume is based on the template from [markdownresume.app](https://markdownresume.app/), as it provides a professional looking and ATS-friendly design in markdown.
 
 ## Hosting
 
-The site is hosted on GitHub Pages, which offers an [easy integration](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) with Jekyll. The site is built and deployed directly from the main branch. To update the site, only the main branch needs to be updated, and GitHub Pages will handle the rest.
+The site is hosted on GitHub Pages, which offers an [easy integration](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) with Jekyll, and deploys from a branch. This out of the box deployment only supports version [2.5.1](https://pages.github.com/versions/) of Minima. The GitHub [workflow](.github/workflows/jekyll.yml) in this repository does support version 3 of Minima.
 
 ## Local Development
 
@@ -29,13 +29,16 @@ docker compose up
 
 4. Visit the site on [localhost:4000](http://localhost:4000/).
 
-### Reloading
+### Refershing page
 
-The [`index.md`](index.md) markdown file which holds the resume reloads automatically on saving, only the browser must be reloaded. The [`_config.yaml`](_config.yaml) file does not automatically reload, but can be reloaded by restarting the docker container: `docker compose restart jekyll`.
+The [`index.md`](index.md) markdown file which holds the resume reloads automatically on saving, only the browser must be refreshed. The [`_config.yaml`](_config.yaml) file does not automatically reload, but can be reloaded by restarting the docker container: `docker compose restart jekyll`.
+
+### Export to PDF
+
+To export the resume as a PDF file press `Crtl + P` in any browser. The styling document is determined by the [print.css](/assets//css/print.css) file.
 
 ### Stop
 1. Stop the docker container.
-
 ```sh
 docker compose down
 ```
