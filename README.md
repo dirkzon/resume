@@ -12,7 +12,7 @@ A local development environment is important because to see the final site with 
 
 ### Start
 
-1. Clone the repository
+1. Clone the repository.
 ```sh
 git clone https://github.com/dirkzon/resume.git
 ```
