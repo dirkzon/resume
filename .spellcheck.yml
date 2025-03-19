@@ -5,9 +5,9 @@ matrix:
   default_encoding: utf-8
   aspell:
     lang: en
-  # dictionary:
-  #   wordlists:
-  #   - ./spelling/.wordlist.txt
-  #   encoding: utf-8
+  dictionary:
+    wordlists:
+    - .wordlist.txt
+    encoding: utf-8
   sources:
   - '**/*.md'

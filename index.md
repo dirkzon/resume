@@ -83,3 +83,4 @@ Full of curiosity to learn new things and improve myself. Proficient in TypeScri
 ## Interests
 
 **Hobbies**: Snowboarding, Competitive Swimming, [music & vintage audio](https://www.discogs.com/user/dirkvanzon)
+
