@@ -1,14 +1,14 @@
 # Minimalistic markdown resume
 
-This repository contains [my resume site](https://dirkzon.github.io/resume/), built with [Jekyll](https://jekyllrb.com/), a static site generator that transforms Markdown files into a clean, maintainable webpage. By using Markdown, the resume is lightweight, easy to update, and focused on content rather than styling. [Minima](https://github.com/jekyll/minima) is used as the default theme, providing a simple and minimalist design with basic styling. The resume is based on the template from [markdownresume.app](https://markdownresume.app/), as it provides a professional looking and ATS-friendly design in markdown.
+This repository contains the code for my [resume site](https://dirkzon.github.io/resume/), built with [Jekyll](https://jekyllrb.com/), a static site generator that transforms Markdown files into a clean, maintainable webpage. By using Markdown, the resume is lightweight, easy to update, and focused on content rather than styling. [Minima](https://github.com/jekyll/minima) is used as the default theme, providing a simple and minimalist design with basic styling. The resume is based on the template from [markdownresume.app](https://markdownresume.app/), as it provides a professional looking and ATS-friendly design in markdown.
 
 ## Hosting
 
-The site is hosted on GitHub Pages, which offers an [easy integration](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) with Jekyll, and deploys from a branch. This out of the box deployment only supports version [2.5.1](https://pages.github.com/versions/) of Minima. The GitHub [workflow](.github/workflows/jekyll.yml) in this repository does support version 3 of Minima.
+The site is hosted on GitHub Pages, which offers an [easy integration](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) with Jekyll, and deploys from a branch. This out of the box deployment only supports version [2.5.1](https://pages.github.com/versions/) of Minima. The [`jekyll`](.github/workflows/jekyll.yml) workflow does support version 3 of Minima.
 
 ## Export to PDF
 
-To export the resume as a PDF file press `Crtl + P` in any browser. Styling of the exported document is determined by the [print.css](/assets//css/print.css) file.
+To export the resume as a PDF file press `Crtl + P` in any browser. Styling of the exported document is determined by the [`print.css`](/assets//css/print.css) file.
 
 ## Spelling check
 
