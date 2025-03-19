@@ -12,7 +12,7 @@ A local development environment is important because to see the final site with 
 
 ### Start
 
-1. Clone the repository
+1. Clone the repository.
 ```sh
 git clone https://github.com/dirkzon/resume.git
 ```
@@ -42,6 +42,10 @@ docker compose down
 ## Export to PDF
 
 To export the resume as a PDF file press `Crtl + P` in any browser. Styling of the exported document is determined by the [print.css](/assets//css/print.css) file.
+
+## Spelling check
+
+When the resume in [`index.md`](index.md) is updated the spelling is checked by the [`spelling_check`](./.github/workflows/spelling_check.yml) workflow which uses [PySpelling](https://facelessuser.github.io/pyspelling/). The [`wordlist`](.wordlist.txt) holds a list of words that are ignored during the spellcheck process.
 
 ## Licence
 
