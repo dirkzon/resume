@@ -1,0 +1,13 @@
+matrix:
+- name: markdown
+  pipeline:
+  - pyspelling.filters.text
+  default_encoding: utf-8
+  aspell:
+    lang: en
+  # dictionary:
+  #   wordlists:
+  #   - ./spelling/.wordlist.txt
+  #   encoding: utf-8
+  sources:
+  - '**/*.md'
