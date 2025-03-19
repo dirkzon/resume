@@ -6,6 +6,14 @@ This repository contains [my resume site](https://dirkzon.github.io/resume/), bu
 
 The site is hosted on GitHub Pages, which offers an [easy integration](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) with Jekyll, and deploys from a branch. This out of the box deployment only supports version [2.5.1](https://pages.github.com/versions/) of Minima. The GitHub [workflow](.github/workflows/jekyll.yml) in this repository does support version 3 of Minima.
 
+## Export to PDF
+
+To export the resume as a PDF file press `Crtl + P` in any browser. Styling of the exported document is determined by the [print.css](/assets//css/print.css) file.
+
+## Spelling check
+
+When the resume in [`index.md`](index.md) is updated the spelling is checked by the [`spelling_check`](./.github/workflows/spelling_check.yml) workflow which uses [PySpelling](https://facelessuser.github.io/pyspelling/). The [`wordlist`](.wordlist.txt) holds a list of words that are ignored during the spellcheck process.
+
 ## Local Development
 
 A local development environment is important because to see the final site with Jekyll and Minima, there is no need to constantly push to the repository and wait for GitHub Pages to build and deploy the resume. Github provides a [guide](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) on how to do this, but it requires the installation of Jekyll, Ruby and Bundler. Instead this repository allows local devlopment with only [Docker](https://www.docker.com/). So, make sure you have Docker running in the background, whether via the docker engine or Docker Desktop, and have [Git](https://git-scm.com/downloads) installed to clone this repository.
@@ -38,14 +46,6 @@ The [`index.md`](index.md) markdown file which holds the resume reloads automati
 ```sh
 docker compose down
 ```
-
-## Export to PDF
-
-To export the resume as a PDF file press `Crtl + P` in any browser. Styling of the exported document is determined by the [print.css](/assets//css/print.css) file.
-
-## Spelling check
-
-When the resume in [`index.md`](index.md) is updated the spelling is checked by the [`spelling_check`](./.github/workflows/spelling_check.yml) workflow which uses [PySpelling](https://facelessuser.github.io/pyspelling/). The [`wordlist`](.wordlist.txt) holds a list of words that are ignored during the spellcheck process.
 
 ## Licence
 
