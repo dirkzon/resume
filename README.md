@@ -33,15 +33,15 @@ docker compose up
 
 The [`index.md`](index.md) markdown file which holds the resume reloads automatically on saving, only the browser must be refreshed. The [`_config.yaml`](_config.yaml) file does not automatically reload, but can be reloaded by restarting the docker container: `docker compose restart jekyll`.
 
-### Export to PDF
-
-To export the resume as a PDF file press `Crtl + P` in any browser. Styling of the exported document is determined by the [print.css](/assets//css/print.css) file.
-
 ### Stop
 1. Stop the docker container.
 ```sh
 docker compose down
 ```
+
+## Export to PDF
+
+To export the resume as a PDF file press `Crtl + P` in any browser. Styling of the exported document is determined by the [print.css](/assets//css/print.css) file.
 
 ## Licence
 
