@@ -43,6 +43,10 @@ docker compose down
 
 To export the resume as a PDF file press `Crtl + P` in any browser. Styling of the exported document is determined by the [print.css](/assets//css/print.css) file.
 
+## Spelling check
+
+When the resume in [`index.md`](index.md) is updated the spelling is checked by the [`spelling_check`](./.github/workflows/spelling_check.yml) workflow which uses [PySpelling](https://facelessuser.github.io/pyspelling/). The [`wordlist`](.wordlist.txt) holds a list of words that are ignored during the spellcheck process.
+
 ## Licence
 
 [MIT](./LICENCE)
