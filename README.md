@@ -35,7 +35,7 @@ The [`index.md`](index.md) markdown file which holds the resume reloads automati
 
 ### Export to PDF
 
-To export the resume as a PDF file press `Crtl + P` in any browser. The styling document is determined by the [print.css](/assets//css/print.css) file.
+To export the resume as a PDF file press `Crtl + P` in any browser. Styling of the exported document is determined by the [print.css](/assets//css/print.css) file.
 
 ### Stop
 1. Stop the docker container.
