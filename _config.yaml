@@ -3,6 +3,8 @@ description: "Full-stack developer"
 theme: minima
 baseurl: ""
 
+google_analytics: G-5WSH8VXPEL
+
 minima:
   skin: auto
   social_links:
