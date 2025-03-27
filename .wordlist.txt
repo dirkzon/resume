@@ -45,7 +45,6 @@ oauth
 oidc
 pattners
 pkce
-platfom
 sdl
 standups
 www
