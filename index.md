@@ -35,7 +35,7 @@ Full of curiosity to learn new things and improve myself. Proficient in TypeScri
 *Eindhoven, Netherlands | Aug 2021 – Jan 2022*
 
 * Developed a Nest.js microservice to manage organization access to the Print Marketplace platfom in the UK.
-* Used CQRS and event sourcing pattners to store and manage changes in access data in an EventStoreDB database.
+* Used CQRS and event sourcing patterns to store and manage changes in access data in an EventStoreDB database.
 * Designed and developed an Angular.js front-end to allow searching of organizations with pagination.
 
 ***
