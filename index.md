@@ -15,8 +15,15 @@ Full of curiosity to learn new things and improve myself. Proficient in TypeScri
 
 ## Experience
 
+**Scientific Software Engineer at Eindhoven University of Technology**  
+*Eindhoven, Netherlands | Jul 2025 - Present*
+
+* Developed wrapper servers to transform lab instruments into IoT devices using the SiLA 2 standard in Python.
+* Implemented orchestration software to automate chemical processes.
+* Mentored interns in designing and developing full-stack software in research environments.
+
 **Intern & Assistant Researcher at Big Chemistry Robotlab in Fontys**  
-*Eindhoven, Netherlands | Feb 2024 - Present*
+*Eindhoven, Netherlands | Feb 2024 - May 2025*
 
 * Researched the suitability of the INTERSECT Open Architecture and SiLA 2.0 lab automation standards for self-driving labs.
 * Developed a [self-driving lab simulator](https://github.com/BigChemistry-RobotLab/sdl-surface-tension-simulator) in python based on an experimental use case from the Huck Group at Radboud University.
