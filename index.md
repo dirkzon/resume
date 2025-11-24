@@ -70,8 +70,8 @@ Full of curiosity to learn new things and improve myself. Proficient in TypeScri
 
 ## Personal Projects
 
-**Oauth2.1 Demonstrator**  
-*Demo of OAuth 2.1 with PKCE and EdDSA to obtain access to a protected resource.* [Repository](https://github.com/dirkzon/oauth2.1-oidc-pkce-demo)
+[**Oauth2.1 Demonstrator**](https://github.com/dirkzon/oauth2.1-oidc-pkce-demo)  
+*Demo of OAuth 2.1 with PKCE and EdDSA to obtain access to a protected resource.*
 
 * Developed a secure OAuth 2.1 Authorization Code Flow with PKCE and OpenID Connect for user authentication and access token management.
 * Built a full-stack application using Node.js (Express.js) for the client and resource server, and Vue.js for the user agent.
