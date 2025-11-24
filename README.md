@@ -1,3 +1,5 @@
+[![Spellcheck](https://github.com/dirkzon/resume/actions/workflows/spelling_check.yml/badge.svg)](https://github.com/dirkzon/resume/actions/workflows/spelling_check.yml)
+
 # Minimalistic markdown resume
 
 This repository contains the code for my [resume site](https://dirkzon.github.io/resume/), built with [Jekyll](https://jekyllrb.com/), a static site generator that transforms Markdown files into a clean, maintainable webpage. By using Markdown, the resume is lightweight, easy to update, and focused on content rather than styling. [Minima](https://github.com/jekyll/minima) is used as the default theme, providing a simple and minimalist design with basic styling. The resume is based on the template from [markdownresume.app](https://markdownresume.app/), as it provides a professional looking and ATS-friendly design in markdown.
